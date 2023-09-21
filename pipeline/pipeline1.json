@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://google.com",
+					"url": "https://bing.com",
 					"method": "GET"
 				}
 			}
