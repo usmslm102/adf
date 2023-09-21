@@ -1,0 +1,9 @@
+{
+	"name": "usadf34",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d5039c8b-9254-4b3d-9d50-6b6e8645f24a",
+		"tenantId": "2061b5ac-9c0f-49ee-bbef-f90e6a6f268e"
+	}
+}
