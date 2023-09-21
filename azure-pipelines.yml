@@ -49,7 +49,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(agent.builddirectory)/scripts/'
+    SourceFolder: '$$(Build.Repository.LocalPath)/scripts/'
     Contents: '**'
     TargetFolder: '$(Build.Repository.LocalPath)/ArmTemplate'
 
