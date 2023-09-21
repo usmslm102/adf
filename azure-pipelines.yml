@@ -46,6 +46,13 @@ steps:
 
 # Publish the artifact to be used as a source for a release pipeline.
 
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(agent.builddirectory)/scripts/'
+    Contents: '**'
+    TargetFolder: '$(Build.Repository.LocalPath)/ArmTemplate'
+
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Build.Repository.LocalPath)/ArmTemplate' #replace with the package.json folder
